@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masonry Services</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Masonry Services</h1>
+            <nav>
+                <ul>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <h2>Your Trusted Masonry Experts</h2>
+            <p>High-quality craftsmanship for your brick and stone projects</p>
+        </div>
+    </section>
+
+    <section id="services" class="container">
+        <h2>Our Services</h2>
+        <div class="service-item">
+            <h3>Brickwork</h3>
+            <p>Expert bricklaying for new constructions and repairs.</p>
+        </div>
+        <div class="service-item">
+            <h3>Stonework</h3>
+            <p>Beautiful stone installations for walls, walkways, and more.</p>
+        </div>
+        <div class="service-item">
+            <h3>Masonry Repairs</h3>
+            <p>Reliable repairs to restore the integrity and appearance of your masonry.</p>
+        </div>
+    </section>
+
+    <section id="testimonials" class="container">
+        <h2>Testimonials</h2>
+        <blockquote>
+            <p>"The team at Masonry Services did an amazing job on our patio. The craftsmanship is top-notch!"</p>
+            <cite>- John Doe</cite>
+        </blockquote>
+        <blockquote>
+            <p>"Professional and reliable. Highly recommend for any masonry project."</p>
+            <cite>- Jane Smith</cite>
+        </blockquote>
+    </section>
+
+    <section id="contact" class="container">
+        <h2>Contact Us</h2>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Masonry Services. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
